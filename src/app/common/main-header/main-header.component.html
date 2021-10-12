@@ -14,7 +14,7 @@
                             </a><!-- .popup__close -->
                             <div class="popup__content">
                                 <div class="popup__user popup__box open-form">
-                                    <a title="Login" href="#" class="open-login">Login</a>
+                                    <a title="Login" [routerLink]="['/login']" class="open-login">Login</a>
                                     <a title="Sign Up" href="#" class="open-signup">Sign Up</a>
                                 </div><!-- .popup__user -->
                                 <div class="popup__destinations popup__box">
@@ -133,7 +133,7 @@
                         </div><!-- .popup -->
                     </div><!-- .site__menu -->
                     <div class="site__brand">
-                        <a title="Logo" href="home-restaurant.html" class="site__brand__logo"><img src="../../../assets/logo.png" alt="Golo"></a>
+                        <a title="Logo" href="/" class="site__brand__logo"><img src="assets/logo.png" alt="Golo"></a>
                     </div><!-- .site__brand -->
                     
                 </div><!-- .site -->
@@ -229,7 +229,7 @@
                         </ul>
                     </nav>
                     <div class="right-header__login">
-                        <a title="Login" class="open-login" href="#">Login</a>
+                        <a title="Login" class="open-login" [routerLink]="['/login']">Login</a>
                     </div><!-- .right-header__login -->
                     <div class="popup popup-form">
                         <a title="Close" href="#" class="popup__close">
