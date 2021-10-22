@@ -1806,7 +1806,7 @@ a.place__comments__reply i { display: inline-block; vertical-align: middle; marg
 .testimonial-control .slick-current img { width: 85px; opacity: 1; }
 
 .blogs { background-color: #23d3d3; padding: 60px 0; position: relative; }
-.blogs:before { content: ''; background-image: url(assets/images/banner-line.png); background-size: cover; background-position: center; position: absolute; left: 0; top: 0; width: 100%; transform: rotate(180deg); height: 245px; z-index: 0; }
+.blogs:before { content: ''; background-image: url(assets/mask-2.svg); background-size: cover; background-position: center; position: absolute; left: 0; top: 0; width: 100%; transform: rotate(180deg); height: 245px; z-index: 0; }
 .blogs .post__category a { color: #ffffff; }
 .blogs .post__category a:after { border-bottom-color: #ffffff; }
 .blogs .post__category a:hover { opacity: 0.7; color: #ffffff; }

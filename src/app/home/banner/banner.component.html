@@ -1,14 +1,20 @@
 <div class="site-banner hcg-banner">
-  <div class="banner slick-sliders">
-      <div class="banner-sliders slick-slider" data-item="1" data-arrows="false" data-dots="false" data-autoplay="autoplay" data-cssease="cubic-bezier(0.7, 0, 0.3, 1)" data-fade="true" data-infinite="true" data-speed="900">
-          <div class="item"><img src="assets/images/banner/banner1.jpg" alt="Banner"></div>
-          <!-- <div class="item"><img src="images/bg/bg-hero-5.jpg" alt="Banner"></div>
-          <div class="item"><img src="images/bg/bg-hero-6.jpg" alt="Banner"></div> -->
-      </div>
-  </div><!-- .banner -->
+    <div class="carousel slide carousel-fade banner slick-sliders" data-bs-ride="carousel">
+        <div class="carousel-inner banner-sliders slick-slider">
+          <div class="carousel-item item active">
+            <img src="assets/images/banner/banner1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item item">
+            <img src="assets/images/banner/banner2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item item">
+            <img src="assets/images/banner/banner3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div><!-- .banner -->
 <div class="container">
 <div class="site-banner__content">
-<h1 class="site-banner__title">Cevichito</h1>
+<h1 class="site-banner__title text-black text-opacity-75">Comida Peruana</h1>
 <p>Aqui te enseñaremos los mejores huariques</p>
 <form action="#" class="site-banner__search layout-02">
               <div class="field-input">
@@ -16,12 +22,12 @@
                   <input class="site-banner__search__input open-suggestion" id="s" type="text" name="s" placeholder="Ejem: Casa " autocomplete="off">
                   <div class="search-suggestions name-suggestions">
                       <ul>
-                          <li><a href="#"><i class="las la-utensils"></i><span>Restaurant</span></a></li>
-                          <li><a href="#"><i class="las la-spa"></i><span>Beauty</span></a></li>
-                          <li><a href="#"><i class="las la-dumbbell"></i><span>Fitness</span></a></li>
-                          <li><a href="#"><i class="las la-cocktail"></i><span>Nightlight</span></a></li>
-                          <li><a href="#"><i class="las la-shopping-bag"></i><span>Shopping</span></a></li>
-                          <li><a href="#"><i class="las la-film"></i><span>Cinema</span></a></li>
+                          <li><a href="#"><i class="fa fa-utensils"></i><span>Restaurant</span></a></li>
+                          <li><a href="#"><i class="fa fa-spa"></i><span>Beauty</span></a></li>
+                          <li><a href="#"><i class="fa fa-dumbbell"></i><span>Fitness</span></a></li>
+                          <li><a href="#"><i class="fa fa-cocktail"></i><span>Nightlight</span></a></li>
+                          <li><a href="#"><i class="fa fa-shopping-bag"></i><span>Shopping</span></a></li>
+                          <li><a href="#"><i class="fa fa-film"></i><span>Cinema</span></a></li>
                       </ul>
                   </div>
               </div><!-- .site-banner__search__input -->
@@ -30,13 +36,13 @@
                   <input class="site-banner__search__input open-suggestion" id="loca" type="text" name="where" placeholder="Tu ciudad" autocomplete="off">
                   <div class="search-suggestions location-suggestions">
                       <ul>
-                          <li><a href="#"><i class="las la-location-arrow"></i><span>Current location</span></a></li>
+                          <li><a href="#"><i class="fa fa-location-arrow"></i><span>Current location</span></a></li>
                           <li><a href="#"><span>San Francisco, CA</span></a></li>
                       </ul>
                   </div>
               </div><!-- .site-banner__search__input -->
               <div class="field-submit">
-                  <button><i class="las la-search la-24-black"></i></button>
+                  <button><i class="fa fa-search"></i></button>
               </div>
           </form><!-- .site-banner__search -->
 </div><!-- .site-banner__content -->
